@@ -12,7 +12,7 @@ public class Member {
 
     @Id @GeneratedValue //jpa를 생성할때 쓰는것
     private Long id;
-    private Long username;
+    private String username;
 
 
 
